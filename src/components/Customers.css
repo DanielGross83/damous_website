@@ -1,0 +1,71 @@
+.testimonial {
+    font-family: Poppins;
+    font-size: 1.5vw;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;    
+    color: white;
+    width: 85%;
+}
+
+.person {
+    font-family: Poppins;
+    font-size: 1.3vw;
+    font-weight: 300;
+    text-align: center;
+    color: white;    
+}
+
+.company {
+    font-family: Poppins;
+    font-size: 1.1vw;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    color: #C6C6C6;  
+    margin-top: -10px;  
+}
+
+.carousel-container {
+    background: linear-gradient(206.11deg, rgba(32, 25, 25, 0.8) 6.75%, rgba(51, 47, 68, 0.8) 51.85%, rgba(73, 72, 115, 0.8) 101.76%);
+    height: 33%;
+    padding: 63px 67px 63px 0px;
+    border-radius: 20px;
+    width: 75%;
+}
+
+.Carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    & button {
+        & img {
+            width: 100%;
+        }
+    }
+    position: relative;
+    padding-bottom: 13%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    transform: 'translateX(-50%)';
+    transition: 'transform .5s ease-in-out'
+}
+
+.active {
+    opacity: 100%;
+    background-color: transparent;
+    border: 0;
+}
+
+.inactive {
+    opacity: 45%;
+    background-color: transparent;
+    border: 0;
+}
