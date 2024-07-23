@@ -20,12 +20,6 @@ function App() {
       </div>
       <div className="sections">
         <Hero />
-        <SectionHeader 
-          title="WHAT WE DO"
-          headline="Data as Commodity"
-          description="In today's data-driven economy, obtaining customized datasets can be time-consuming. We help you save time, labor, and money by providing clean, tailored datasets, allowing you to work on what’s important"
-        />
-        
         <WhatWeDo />
         <HowItWorks />
         <Customers />
