@@ -2,6 +2,8 @@ import './App.css'
 import Hero from './components/Hero'
 import WhatWeDo from './components/WhatWeDo'
 import HowItWorks from './components/HowItWorks'
+import Customers from './components/Customers'
+import Projects from './components/Projects'
 import "@fontsource/poppins/700.css"
 import "@fontsource/poppins/600.css"
 import "@fontsource/poppins/500.css"
@@ -18,6 +20,8 @@ function App() {
         <Hero />
         <WhatWeDo />
         <HowItWorks />
+        <Customers />
+        <Projects />
       </div>
     </>
   )
