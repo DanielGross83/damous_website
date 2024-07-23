@@ -30,7 +30,6 @@ function App() {
         <HowItWorks />
         <Customers />
         <Projects />
-        
         <Footer />
       </div>
     </>
