@@ -1,17 +1,13 @@
-#root {
-  width: auto;
-  height: auto;
-}
-
 body {
   background-color: black;
+  display: grid;
 }
 
 .header {
   width: 250px;
   height: 70px;
-  margin-top: 59px;
-  margin-left: 84px;
+  margin-top: 3%;
+  margin-left: 5%;
 }
 
 .header h1 {
@@ -26,48 +22,85 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.hero {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  & img {
+    height: 80%;
+  }
+}
+
 .hero-text {
-  width: 547px;
-  height: 338px;
-  margin-top: 238px;
-  margin-left: 182px;
-  /* display: flex;
+  width: 47%;
+  height: 48%;
+  display: flex;
   flex-direction: column;
-  align-items: flex-start; */
   & p {
     font-family: Poppins;
-    font-size: 50px;
+    font-size: 4vw;
     font-weight: 600;
-    line-height: 75px;
     text-align: left;
     color: #FFFCFC;
   }
-  & .text1 {
-    width: 400px;
-    height: 75px;
-    margin-left: 147px;
-  }
   & .text2 {
-    width: 238px;
-    height: 75px;
-    margin-top: 75px;
+    width: 42%;
+    height: 22%;
+    margin-top: 2%;
   }
-  & .words {
-    width: 400px;
-    height: 75px;
-    & span {
-      font-family: Poppins;
-      font-size: 50px;
-      font-weight: 600;
-      text-align: left;
-      background: -webkit-linear-gradient(249.88deg, #8A32D0 8.25%, #9A95CD 93.16%);
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      display: block;
-      animation: spin_words 4s infinite;
+  & .line1 {
+    display: flex;
+    align-items: center;
+    height: 25%;
+    width: 90%;
+    & .words {
+      width: 36%;
+      height: 100%;
+      padding: 0px 2.5% 0px 0px;
+      & span {
+        font-family: Poppins;
+        font-size: 4vw;
+        font-weight: 600;
+        text-align: left;
+        background: -webkit-linear-gradient(249.88deg, #8A32D0 8.25%, #9A95CD 93.16%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: block;
+        animation: spin_words 4s infinite;
+      }
+      overflow: hidden;
     }
-    overflow: hidden;
+    & .text1 {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  & .subheading {
+    width: 73%;
+    height: 25%;
+    font-family: Poppins;
+    font-size: 2vw;
+    font-weight: 500;
+    text-align: left;
+    color: #DBCACA;
+    margin-top: -4%;
+  }
+  & button {
+    margin-top: 2%;
+    width: 20%;
+    height: 18%;
+    padding: 12px 15px 12px 15px;
+    border-radius: 8px;
+    background-color: #7BEAE3;
+    font-family: Poppins;
+    font-size: 1.3vw;
+    font-weight: 500;
+    text-align: center;
+    border-color: #7BEAE3;
   }
 }
 

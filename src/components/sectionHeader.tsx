@@ -1,11 +1,10 @@
-import './App.css'
-import sectionHeader from './components/sectionHeader'
+import './sectionHeader.css'
 import "@fontsource/poppins/700.css"
 import "@fontsource/poppins/600.css"
 import "@fontsource/poppins/500.css"
 
-function App() {
-  
+function sectionHeader() {
+
   return (
     <>
       <div className="header">
@@ -25,10 +24,11 @@ function App() {
           <p className="subheading">Don’t Have The Data You Need?<br></br>We’ll Get It For You</p>
           <button>Get Data</button>
         </div>
-        <img src='./public/hero_image.png'></img>
+        <img src='/hero_image.png'></img>
       </div>
+      
     </>
   )
 }
 
-export default App
+export default sectionHeader
