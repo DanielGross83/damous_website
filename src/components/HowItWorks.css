@@ -1,0 +1,49 @@
+.HowItWorks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.Wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 82%;
+}
+
+.Steps {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    & :hover {
+        color: white;
+        & hr.solid {
+            border-color: white;
+        }
+    }
+}
+
+.Step {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    text-align: left;   
+    font-weight: 300;
+    color: #858585;
+    & p.title {
+        font-size: 20px;
+    }
+    & p.descript {
+        margin-top: -5px;
+        font-size: 15px;
+    }
+    & hr.solid {
+        width: 100%;
+        border-top: 1px solid #858585;
+        border-color: #858585;
+    }
+}
+
