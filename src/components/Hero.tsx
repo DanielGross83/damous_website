@@ -1,15 +1,11 @@
-import './sectionHeader.css'
+import './Hero.css'
 import "@fontsource/poppins/700.css"
 import "@fontsource/poppins/600.css"
 import "@fontsource/poppins/500.css"
 
-function sectionHeader() {
-
+export default function Hero() {
   return (
     <>
-      <div className="header">
-        <h1>Damous</h1>
-      </div>
       <div className="hero">
         <div className="hero-text">
           <div className="line1">
@@ -30,5 +26,3 @@ function sectionHeader() {
     </>
   )
 }
-
-export default sectionHeader
