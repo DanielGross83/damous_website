@@ -1,6 +1,5 @@
 body {
   background-color: black;
-  display: grid;
 }
 
 .header {
@@ -117,4 +116,10 @@ body {
   100%{
       transform: translateY(0%);
   }
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
