@@ -4,7 +4,6 @@ import WhatWeDo from './components/WhatWeDo'
 import HowItWorks from './components/HowItWorks'
 import Customers from './components/Customers'
 import Projects from './components/Projects'
-import SectionHeader from './components/sectionHeader'
 import Footer from './components/Footer'
 import "@fontsource/poppins/700.css"
 import "@fontsource/poppins/600.css"
@@ -30,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
