@@ -1,32 +1,16 @@
-import './App.css'
-import Hero from './components/Hero'
-import WhatWeDo from './components/WhatWeDo'
-import HowItWorks from './components/HowItWorks'
-import Customers from './components/Customers'
-import Projects from './components/Projects'
-import Footer from './components/Footer'
-import "@fontsource/poppins/700.css"
-import "@fontsource/poppins/600.css"
-import "@fontsource/poppins/500.css"
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home'; // Your main page component
+import CaseStudyPage from './case-study/CaseStudy'; // Your case study page component
 
-
-function App() {
-  
+const App = () => {
   return (
-    <>
-      <div className="header">
-        <h1>Damous</h1>
-      </div>
-      <div className="sections">
-        <Hero />
-        <WhatWeDo />
-        <HowItWorks />
-        <Customers />
-        <Projects />
-        <Footer />
-      </div>
-    </>
-  )
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/case-study" element={<CaseStudyPage />} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;

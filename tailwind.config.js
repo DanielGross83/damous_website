@@ -8,3 +8,8 @@ export default {
   plugins: [],
 }
 
+module.exports = {
+  corePlugins: {
+    preflight: false,
+  }
+}
