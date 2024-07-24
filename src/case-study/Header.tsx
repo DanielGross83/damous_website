@@ -7,11 +7,12 @@ const HeaderContainer = styled.header`
     position: absolute;
     width: 338px;
     height: 797px;
-    left: 84px;
+    left: 380px;
     top: 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    jsutify-content: space-between;
     padding: 198px 0px 200px;
     gap: 20px;
     background-color: #000;  // Ensure it blends with the overall page
@@ -76,7 +77,7 @@ const LogoTitle = styled.h1`
     position: absolute;
     width: 250px;
     height: 70px;
-    left: 84px;
+    left: 380px;
     top: 59px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;

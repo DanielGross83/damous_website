@@ -4,8 +4,8 @@ import styled from 'styled-components';
 const SectionContainer = styled.section`
     position: absolute;
     top: 265px;
-    left: 485px;
-    width: 624px;
+    left: 1000px;
+    width: 680px;
     font-size: 15px;
     line-height: 22px;
     color: #FFFFFF;
