@@ -5,8 +5,8 @@ import styled from 'styled-components';
 const ResultContainer = styled.section`
     position: absolute;
     top: 1134px; // Adjust the positioning as needed based on your layout
-    left: 485px;
-    width: 624px;
+    left: 1000px;
+    width: 680px;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
 
@@ -28,6 +28,7 @@ const ResultContainer = styled.section`
         color: #FFF; // Button text color
         border: none; // No border for a clean look
         border-radius: 20px; // Rounded corners for the button
+        width: 180px; // Width of the button
         padding: 10px 15px; // Padding inside the button
         font-size: 15px; // Text size within the button
         cursor: pointer; // Cursor to indicate it's clickable

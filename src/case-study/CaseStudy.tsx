@@ -23,9 +23,9 @@ const Banner = styled.div`
     justify-content: center;
     position: absolute;
     top: ${props => props.top};  // Dynamically set top position
-    left: 485px;
+    left: 985px;
     width: 171px;
-    height: 34px;
+    height: 18px;
     background: linear-gradient(90deg, #131B30 0%, #161F39 100%);
     border-radius: 20px;
     color: #918383;
@@ -36,13 +36,13 @@ function CaseStudyPage() {
     return (
         <PageContainer>
             <Header />
-            <Banner top="208px">The Problem</Banner>
+            <Banner id="problem" top="208px">The Problem</Banner>
             <ProblemSection />
-            <Banner top="648px">The Solution</Banner>
+            <Banner id="solution" top="648px">The Solution</Banner>
             <SolutionSection />
-            <Banner top="1074px">The Result</Banner>
+            <Banner id="result" top="1074px">The Result</Banner>
             <ResultSection />
-            <Banner top="1465px">The Review</Banner>
+            <Banner id="review" top="1465px">The Review</Banner>
             <ReviewSection />
             <Footer />
         </PageContainer>

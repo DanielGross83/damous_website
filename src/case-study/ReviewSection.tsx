@@ -4,8 +4,8 @@ import profile_pic from '../assets/chinazzo.png';
 
 const ReviewContainer = styled.section`
     position: relative;
-    width: 624px;
-    left: 485px;
+    width: 680px;
+    left: 1000px;
     top: 1523px; // Adjust this value if necessary to fit the flow of the document or consider using top margin for spacing.
     font-family: 'Poppins', sans-serif;
     font-style: normal;

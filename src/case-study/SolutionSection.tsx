@@ -5,8 +5,8 @@ import styled from 'styled-components';
 const SolutionContainer = styled.section`
     position: absolute;
     top: 708px; // Adjust the positioning as needed based on your layout
-    left: 485px;
-    width: 624px;
+    left: 1000px;
+    width: 680px;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
 

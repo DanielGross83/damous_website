@@ -6,7 +6,7 @@ const FooterContainer = styled.footer`
     position: absolute;
     width: 900px;
     height: 88px;
-    left: 206px;
+    left: 550px;
     top: 2261px;
     display: flex;
     justify-content: space-between;
