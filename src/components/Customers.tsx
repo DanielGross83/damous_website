@@ -49,7 +49,7 @@ class DemoCarousel extends Component {
     render() {
         return (
             <Carousel
-                swipeable={false}
+                swipeable={true}
                 draggable={false}
                 showDots
                 arrows={false}

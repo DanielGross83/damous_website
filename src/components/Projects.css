@@ -1,15 +1,14 @@
 .Projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    max-width: 800px;
+    margin-inline: auto;
+    justify-items: center;
 }
 
 .project {
-    width: 350px;
-    height: 286px;
+    max-width: 350px;
+    min-height: 286px;
     text-decoration: none;
     & .icon {
         width: 350px;

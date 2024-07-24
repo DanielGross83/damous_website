@@ -5,12 +5,12 @@
 }
 
 .sectionTitle {
-    width: 15%;
-    padding: 0.4% 1.2% 0.4% 1.2%;
+    max-width: 200px;
+    padding: 0.4% 4% 0.4% 4%;
     border-radius: 30px;
     background: linear-gradient(90deg, #131B30 0%, #161F39 100%);
     font-family: 'Poppins';
-    font-size: 1.4vw;
+    font-size: clamp(12px, 1.4vw, 22px);
     font-weight: 300;
     letter-spacing: 0.15em;
     text-align: center;
@@ -20,7 +20,7 @@
 .sectionHeadline {
     margin-top: -10px;
     font-family: Poppins;
-    font-size: 3vw;
+    font-size: clamp(30px, 3vw, 50px);
     font-weight: 600;
     text-align: left;
     text-decoration: underline;
@@ -33,7 +33,7 @@
 .sectionDescription {
     margin-top: -20px;
     font-family: Poppins;
-    font-size: 1.5vw;
+    font-size: clamp(15px, 1.4vw, 25px);
     font-weight: 300;
     text-align: center;
     color: #E0D1D1;
