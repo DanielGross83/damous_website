@@ -27,6 +27,7 @@ const StyledBlockquote = styled.blockquote`
     font-size: 15px;
     line-height: 22px;
     color: #FFFFFF;
+    white-space: pre-line;
 
     &::before {
         content: '';
@@ -80,7 +81,8 @@ const ReviewSection = () => {
         <ReviewContainer id="review">
             <h2>Efficient, Accommodating, Professional and Communicative</h2>
             <StyledBlockquote>
-                “I recently had the pleasure of working with Damous on a data collection project, and I couldn't be more satisfied with the service they provided. They were incredibly fast at gathering the requested reviews from the desired social media platforms, consistently delivering results promptly. Throughout the project, I made several changes to the instructions and had new requests popping up regularly. They were not only accommodating to all these adjustments but also quick and comprehensive in providing the appropriate solutions. Their ability to adapt to my evolving needs showcased his creativity and extensive knowledge of data sourcing.
+                “I recently had the pleasure of working with Damous on a data collection project, and I couldn't be more satisfied with the service they provided. They were incredibly fast at gathering the requested reviews from the desired social media platforms, consistently delivering results promptly.
+                Throughout the project, I made several changes to the instructions and had new requests popping up regularly. They were not only accommodating to all these adjustments but also quick and comprehensive in providing the appropriate solutions. Their ability to adapt to my evolving needs showcased his creativity and extensive knowledge of data sourcing.
                 The data was delivered in a highly professional manner, complete with detailed descriptions and updates for all the clarifications I requested. Their thoroughness and attention to detail ensured that the final product met all my expectations and more.
                 Overall, working with Damous was a great pleasure. The professionalism, expertise, and willingness to go the extra mile makes them an outstanding service provider.”
             </StyledBlockquote>

@@ -10,7 +10,6 @@ import Footer from './Footer';
 // Main container for the case study page
 const PageContainer = styled.div`
     position: relative;
-    width: 1280px;
     height: 2368px;
     background: #000000;
     color: #F0F0F0;

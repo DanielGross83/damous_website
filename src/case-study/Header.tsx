@@ -101,7 +101,7 @@ const Header = () => {
 
     return (
         <>
-            <LogoTitle>Damous</LogoTitle>
+            <a href="/"><LogoTitle>Damous</LogoTitle></a>
             <HeaderContainer>
                 <Title size="40px" weight="500" lineHeight="60px" gradient="linear-gradient(91.36deg, #C9C8F8 0.67%, #F7E8E8 28.92%)">
                     Civilian Comfort in Underground Urban Transport

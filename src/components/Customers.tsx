@@ -50,6 +50,7 @@ class DemoCarousel extends Component {
         return (
             <Carousel
                 swipeable={false}
+                draggable={false}
                 showDots
                 arrows={false}
                 customDot={<CustomDot />}
